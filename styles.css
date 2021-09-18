@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+.descrip-div{
+    margin: auto;
+    text-align: center;
+}
+.description{
+    font-size: 1.5rem;
+    margin-top: 0px;   
+}
+.footer-div{
+    padding-top: 2rem;
+    margin: auto;
+}
+.error-div{
+    margin: auto;
+}
+.heading{
+    color:  yellowgreen;
+}
+.header-div{
+    margin: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 5rem;
+    
+
+}
+.label-div{
+    margin: auto;
+}
+.input-div{
+    margin: auto;
+}
+input{
+    width: 300px;
+    padding: 0.6rem 1rem;
+    margin: 1.5rem;
+    
+}
+button{
+    max-width: 300px;
+    color: white;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 24px;
+    border-radius: 2rem;
+    background-color: #6366F1;
+
+    border: none;
+}
+.btn-div{
+    margin: auto;
+}
+.table-div{
+    margin: auto;
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 50vw;
+    
+}
+th{
+    border: 2px solid #101011;
+    
+    padding: 1rem;
+    color: #22c28d;
+    background-color: #C7D2FE;
+}
+table caption{
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    font-size: 24px;
+}
+td{
+    padding: 1rem;
+    background-color: #C7D2FE;
+    color: #22c28d;
+    border: 2px solid #000000;
+}

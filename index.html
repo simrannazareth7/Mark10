@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-div">
+        <h1 class="heading"> Cash Register Manager </h1>
+      </div>
+      
+      <div class="descrip-div">
+        <p class="description">
+                   Know the No of notes to return by entering the bill amount and cash given!
+        </p>
+      </div>
+      
+      <div class="label-div">
+        <label for="bill-amount">Bill Amount</label>
+      </div>
+      
+      <div class="input-div">
+        <input id="bill-amount" type="text" />
+      </div>
+
+      <div class="label-div">
+        <label for="cash-given">Cash Given</label>
+      </div>
+      
+      <div class="input-div">
+        <input type="text" id="cash-given" />
+      </div>
+      
+      <div class="btn-div">
+        <button id="check-button">Amnount to Return</button> 
+      </div>
+
+
+      <div class="error-div">
+        <p id="error-message"></p>
+      </div>
+      
+      <div class="table-div">
+        <table id="change-table">
+          <caption>
+            Change to be Returned
+          </caption>
+          <tr>
+            <th>No of Notes</th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+          </tr>
+          <tr>
+            <th>Notes</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer-div">© | 2021| Simran</div>
+      
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
